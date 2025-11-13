@@ -1,0 +1,6 @@
+# robots.txt example file for basic testing
+
+# ---------------------------
+# Allow all except for an unexistent path
+User-agent: *
+Disallow: /unexistent1
