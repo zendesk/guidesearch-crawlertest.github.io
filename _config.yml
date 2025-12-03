@@ -1,0 +1,17 @@
+# Jekyll Configuration
+title: Crawler Test Site
+description: Test site for crawler functionality
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://random-name.pages.github.io" # your custom GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .github/
